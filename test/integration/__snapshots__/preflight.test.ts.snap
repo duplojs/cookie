@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`cookie preflight > should get cookie 1`] = `"cookie"`;

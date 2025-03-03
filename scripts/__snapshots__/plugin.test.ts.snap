@@ -1,0 +1,316 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`plugin > should be implemente cookie plugin in duplo 1`] = `
+[
+  [Function],
+]
+`;
+
+exports[`plugin > should be implemente cookie plugin in duplo with options 1`] = `
+[
+  [Function],
+]
+`;
+
+exports[`plugin > test drop cookie in response 1`] = `
+OkHttpResponse {
+  "body": "test",
+  "code": 200,
+  "headers": {},
+  "information": "ok",
+  "keepAlive": false,
+  Symbol(unique): Symbol(unique),
+}
+`;
+
+exports[`plugin > test make route with cookie plugin 1`] = `
+Route {
+  "definiton": {
+    "descriptions": [],
+    "method": "GET",
+    "paths": [
+      "/test",
+    ],
+    "preflightSteps": [],
+    "steps": [
+      ExtractStep {
+        "catchError": undefined,
+        "descriptions": [],
+        "parent": {
+          "cookies": {
+            "test": ZodString {
+              "_def": {
+                "checks": [],
+                "coerce": false,
+                "typeName": "ZodString",
+              },
+              "and": [Function],
+              "array": [Function],
+              "brand": [Function],
+              "catch": [Function],
+              "default": [Function],
+              "describe": [Function],
+              "isNullable": [Function],
+              "isOptional": [Function],
+              "nullable": [Function],
+              "nullish": [Function],
+              "optional": [Function],
+              "or": [Function],
+              "parse": [Function],
+              "parseAsync": [Function],
+              "pipe": [Function],
+              "promise": [Function],
+              "readonly": [Function],
+              "refine": [Function],
+              "refinement": [Function],
+              "safeParse": [Function],
+              "safeParseAsync": [Function],
+              "spa": [Function],
+              "superRefine": [Function],
+              "transform": [Function],
+              "~standard": {
+                "validate": [Function],
+                "vendor": "zod",
+                "version": 1,
+              },
+            },
+          },
+        },
+      },
+      HandlerStep {
+        "descriptions": [],
+        "parent": [Function],
+        "responses": [],
+      },
+    ],
+  },
+  "editingFunctions": [],
+  "evaler": undefined,
+  "extensions": {
+    "injectedFunction": [],
+  },
+  "hooks": HooksRouteLifeCycle {
+    "afterSend": Hook {
+      "evaler": undefined,
+      "numberArgs": 2,
+      "subscribers": [],
+    },
+    "beforeRouteExecution": Hook {
+      "evaler": undefined,
+      "numberArgs": 1,
+      "subscribers": [],
+    },
+    "beforeSend": Hook {
+      "evaler": undefined,
+      "numberArgs": 2,
+      "subscribers": [],
+    },
+    "onError": Hook {
+      "evaler": undefined,
+      "numberArgs": 2,
+      "subscribers": [],
+    },
+    "parsingBody": Hook {
+      "evaler": undefined,
+      "numberArgs": 1,
+      "subscribers": [],
+    },
+    "serializeBody": Hook {
+      "evaler": undefined,
+      "numberArgs": 2,
+      "subscribers": [],
+    },
+  },
+  "instance": undefined,
+  "origin": undefined,
+}
+`;
+
+exports[`plugin > test make route with cookie plugin 2`] = `
+Duplo {
+  "buildedRouter": undefined,
+  "config": {
+    "bodySizeLimit": 52428800,
+    "disabledRuntimeEndPointCheck": false,
+    "disabledZodAccelerator": false,
+    "environment": "TEST",
+    "keepDescriptions": false,
+    "keyToInformationInHeaders": "information",
+    "plugins": [
+      [Function],
+    ],
+    "prefix": [],
+    "recieveFormDataOptions": {
+      "prefixTempName": "tmp-",
+      "strict": false,
+      "uploadDirectory": "upload",
+    },
+  },
+  "duploses": [
+    Route {
+      "definiton": {
+        "descriptions": [],
+        "method": "GET",
+        "paths": [
+          "/test",
+        ],
+        "preflightSteps": [],
+        "steps": [
+          ExtractStep {
+            "catchError": undefined,
+            "descriptions": [],
+            "parent": {
+              "cookies": {
+                "test": ZodString {
+                  "_def": {
+                    "checks": [],
+                    "coerce": false,
+                    "typeName": "ZodString",
+                  },
+                  "and": [Function],
+                  "array": [Function],
+                  "brand": [Function],
+                  "catch": [Function],
+                  "default": [Function],
+                  "describe": [Function],
+                  "isNullable": [Function],
+                  "isOptional": [Function],
+                  "nullable": [Function],
+                  "nullish": [Function],
+                  "optional": [Function],
+                  "or": [Function],
+                  "parse": [Function],
+                  "parseAsync": [Function],
+                  "pipe": [Function],
+                  "promise": [Function],
+                  "readonly": [Function],
+                  "refine": [Function],
+                  "refinement": [Function],
+                  "safeParse": [Function],
+                  "safeParseAsync": [Function],
+                  "spa": [Function],
+                  "superRefine": [Function],
+                  "transform": [Function],
+                  "~standard": {
+                    "validate": [Function],
+                    "vendor": "zod",
+                    "version": 1,
+                  },
+                },
+              },
+            },
+          },
+          HandlerStep {
+            "descriptions": [],
+            "parent": [Function],
+            "responses": [],
+          },
+        ],
+      },
+      "editingFunctions": [],
+      "evaler": undefined,
+      "extensions": {
+        "injectedFunction": [],
+      },
+      "hooks": HooksRouteLifeCycle {
+        "afterSend": Hook {
+          "evaler": undefined,
+          "numberArgs": 2,
+          "subscribers": [],
+        },
+        "beforeRouteExecution": Hook {
+          "evaler": undefined,
+          "numberArgs": 1,
+          "subscribers": [],
+        },
+        "beforeSend": Hook {
+          "evaler": undefined,
+          "numberArgs": 2,
+          "subscribers": [],
+        },
+        "onError": Hook {
+          "evaler": undefined,
+          "numberArgs": 2,
+          "subscribers": [],
+        },
+        "parsingBody": Hook {
+          "evaler": undefined,
+          "numberArgs": 1,
+          "subscribers": [],
+        },
+        "serializeBody": Hook {
+          "evaler": undefined,
+          "numberArgs": 2,
+          "subscribers": [],
+        },
+      },
+      "instance": [Circular],
+      "origin": undefined,
+    },
+  ],
+  "evalers": {},
+  "extractError": [Function],
+  "hooksInstanceLifeCycle": HooksInstanceifeCycle {
+    "beforeBuildRouter": Hook {
+      "evaler": undefined,
+      "numberArgs": 1,
+      "subscribers": [],
+    },
+    "onHttpServerError": Hook {
+      "evaler": undefined,
+      "numberArgs": 2,
+      "subscribers": [],
+    },
+    "onRegistered": Hook {
+      "evaler": undefined,
+      "numberArgs": 1,
+      "subscribers": [],
+    },
+    "onStart": Hook {
+      "evaler": undefined,
+      "numberArgs": 1,
+      "subscribers": [
+        [Function],
+      ],
+    },
+  },
+  "hooksRouteLifeCycle": HooksRouteLifeCycle {
+    "afterSend": Hook {
+      "evaler": undefined,
+      "numberArgs": 2,
+      "subscribers": [],
+    },
+    "beforeRouteExecution": Hook {
+      "evaler": undefined,
+      "numberArgs": 1,
+      "subscribers": [
+        [Function],
+      ],
+    },
+    "beforeSend": Hook {
+      "evaler": undefined,
+      "numberArgs": 2,
+      "subscribers": [
+        [Function],
+        [Function],
+      ],
+    },
+    "onError": Hook {
+      "evaler": undefined,
+      "numberArgs": 2,
+      "subscribers": [],
+    },
+    "parsingBody": Hook {
+      "evaler": undefined,
+      "numberArgs": 1,
+      "subscribers": [],
+    },
+    "serializeBody": Hook {
+      "evaler": undefined,
+      "numberArgs": 2,
+      "subscribers": [],
+    },
+  },
+  "notfoundHandler": [Function],
+}
+`;

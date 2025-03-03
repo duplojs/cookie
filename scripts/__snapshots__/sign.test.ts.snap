@@ -1,0 +1,32 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Test sign and verify cookie > should handle empty value 1`] = `
+{
+  "result": null,
+}
+`;
+
+exports[`Test sign and verify cookie > should handle incomplete signature 1`] = `
+{
+  "result": null,
+}
+`;
+
+exports[`Test sign and verify cookie > should handle invalid signature 1`] = `
+{
+  "result": null,
+}
+`;
+
+exports[`Test sign and verify cookie > should handle no dots 1`] = `
+{
+  "result": null,
+}
+`;
+
+exports[`Test sign and verify cookie > should verify signed cookies correctly 1`] = `
+{
+  "signed": "123456特殊な文字test2@é.5bcfea31e320c8efc941c94cbdbdf78ed69e74bd3e1214c4f2f19f5f33416769.signed",
+  "verified": "123456特殊な文字test2@é",
+}
+`;

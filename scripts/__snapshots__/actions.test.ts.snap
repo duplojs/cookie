@@ -1,0 +1,73 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`actions > should be implemente parseCookies 1`] = `
+{
+  "test": "test",
+}
+`;
+
+exports[`actions > should be implemente serializeCookies 1`] = `
+Response {
+  "body": {},
+  "code": 200,
+  "headers": {
+    "Set-Cookie": [
+      "test=test; HttpOnly; Secure; SameSite=Strict",
+    ],
+  },
+  "information": "ok",
+  "keepAlive": false,
+  Symbol(unique): Symbol(unique),
+}
+`;
+
+exports[`actions > should be implemente serializeCookies with options 1`] = `
+Response {
+  "body": {},
+  "code": 200,
+  "headers": {
+    "Set-Cookie": [
+      "test=test; HttpOnly; Secure; SameSite=Strict",
+    ],
+  },
+  "information": "ok",
+  "keepAlive": false,
+  Symbol(unique): Symbol(unique),
+}
+`;
+
+exports[`actions with secret option > should be implemente parseCookies 1`] = `
+{
+  "test": "test",
+}
+`;
+
+exports[`actions with secret option > should be implemente serializeCookies 1`] = `
+Response {
+  "body": {},
+  "code": 200,
+  "headers": {
+    "Set-Cookie": [
+      "test=test; HttpOnly; Secure; SameSite=Strict",
+    ],
+  },
+  "information": "ok",
+  "keepAlive": false,
+  Symbol(unique): Symbol(unique),
+}
+`;
+
+exports[`actions with secret option > should be implemente serializeCookies with options 1`] = `
+Response {
+  "body": {},
+  "code": 200,
+  "headers": {
+    "Set-Cookie": [
+      "test=test; HttpOnly; Secure; SameSite=Strict",
+    ],
+  },
+  "information": "ok",
+  "keepAlive": false,
+  Symbol(unique): Symbol(unique),
+}
+`;

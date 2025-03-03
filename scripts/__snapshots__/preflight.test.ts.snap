@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Test preflight > test build process 1`] = `{}`;
+
+exports[`Test preflight > test build process with options 1`] = `{}`;
